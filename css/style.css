@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+.sectionOne{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 2rem;
+    border: 2px solid white;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, white 0px 4px 6px, white  0px 12px 13px, white  0px -3px 5px;
+}
+.classL{
+    width: 50%;
+    text-align: justify;
+    margin-left: 10rem;
+    
+}
+.classR{
+    margin-right: 10rem;
+}
+.man{
+    width: 400px;
+    height: 400px;
+}
+.title{
+    font-size: 3rem;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+}
+.paragraph{
+    width: 400px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.proj{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    margin-top: 2.5rem;
+    gap: 1em;
+    padding: 0 40px;
+}
+
+.proj-1, .proj-2, .proj-3{
+    width: 25em;
+    height: 25em;
+    padding: 10px 30px;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+}
+
+.proj-image{
+    width: 350px;
+    height: 300px;
+}
+
+.title2{
+    text-align: center;
+    margin-top: 5rem;
+    font-size: 2.5rem;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+}
+
+.para2{
+    text-align: justify;
+    padding: 1.5rem 0;
+}
+button{
+    padding: 10px 20px;
+    background-color: White;
+    color: black;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    border-radius: 2px;
+}
+.man:hover {
+    width: 450px; 
+    height: 450px; 
+    transition: width 0.3s ease, height 0.3s ease; 
+}
+
+.proj-image:hover {
+    transform: scale(1.1); 
+    transition: transform 0.3s ease; 
+}
+button:hover {
+    background-color: green; /* Change background color on hover */
+    color: white; /* Change text color on hover */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Add transition effect */
+    transform: scale(1.1); /* Scale up the button on hover */
+}
+
+/* Adjust the padding to maintain button size during scaling */
+button {
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    border-radius: 2px;
+    transition: transform 0.3s ease; /* Add transition effect */
+}
